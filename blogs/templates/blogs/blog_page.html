@@ -1,0 +1,29 @@
+{% extends "layout.html" %} 
+{% block content %}
+
+<style>
+  h2,
+  h4 {
+    display: block;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  section {
+    display: block;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+  }
+</style>
+
+<h2>{{ blog.title }}</h2>
+<h4>{{ blog.date }}</h4>
+
+<section>
+  <pre>
+    <p>{{blog.body}}</p>
+</pre>
+</section>
+
+{% endblock content %}

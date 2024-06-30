@@ -1,0 +1,149 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+.box {
+    width: 400px;
+    border: 2px solid black;
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+body {
+    font-size: larger;
+}
+
+hr {
+    display: block;
+    margin: 20px;
+}
+
+.navbar {
+    display: block;
+    text-align: center;
+}
+
+.column-1 {
+    float: left;
+    width: 25%;
+    margin: 5px;
+    padding: 10px;
+    margin-top: 20px;
+    border-style: double;
+}
+
+.column-2 {
+    float: right;
+    width: 70%;
+    margin: 5px;
+    padding: 10px;
+    margin-top: 20px;
+    border-style: double;
+}
+
+@media screen and (max-width: 600px) {
+    .column-1 {
+        width: 100%;
+    }
+
+    .column-2 {
+        width: 100%;
+    }
+}
+
+table {
+    display: block;
+    padding: 10px;
+}
+
+th {
+    padding: 10px;
+}
+
+tr {
+    display: table-row;
+    border-color: black;
+}
+
+td {
+    display: block;
+    justify-content: center;
+    padding: 5px;
+}
+
+.sidenav section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    padding: 20px;
+    max-width: 80%;
+    text-align: center;
+}
+
+.sidenav a {
+    padding: 10px;
+    border-style: solid;
+    width: auto;
+}
+
+#profile {
+    display: block;
+    width: auto;
+    height: 200px;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: double;
+    justify-content: center;
+}
+
+#info {
+    display: block;
+    font-size: 20px;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+}
+
+#skills {
+    display: block;
+    font-size: 20px;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+}
+
+#experience {
+    display: block;
+    font-size: 20px;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+}
+
+#certifications {
+    display: block;
+    font-size: 20px;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+}
+
+#copyright {
+    display: flex;
+    font-size: 20px;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+}

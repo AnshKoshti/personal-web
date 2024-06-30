@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ansh Koshti's website.</title>
+    <link rel="stylesheet" href="{% static "css/style.css" %}">
+    <script src="{% static 'js/main.js' %}" defer></script>
+  </head>
+  <body>
+    <header>
+      <div class="box">
+        <h1><u>Ansh Koshti</u></h1>
+        <h3>software engineer</h3>
+      </div>
+    </header>
+    <hr />
+    {% block navbar %}
+    <nav class="navbar">
+      <i>Quick Nav - </i> &nbsp 
+      <a href="/">Home</a> &nbsp | &nbsp
+      <a href="{% url 'blogs:list' %}">Blogs</a> &nbsp | &nbsp
+      <a href="#">Resume</a>
+    </nav>
+    <hr />
+    {% endblock navbar %} 
+    {% block content %} 
+    {% endblock content %}
+  </body>
+</html>
