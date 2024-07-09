@@ -28,19 +28,19 @@ hr {
 }
 
 .column-1 {
-    float: left;
+    float: right;
     width: 25%;
     margin: 5px;
-    padding: 10px;
+    padding: 5px;
     margin-top: 20px;
     border-style: double;
 }
 
 .column-2 {
-    float: right;
+    float: left;
     width: 70%;
     margin: 5px;
-    padding: 10px;
+    padding: 5px;
     margin-top: 20px;
     border-style: double;
 }
@@ -87,9 +87,10 @@ td {
 }
 
 .sidenav a {
-    padding: 10px;
-    border-style: solid;
+    padding: 5px;
+    margin: 5px;
     width: auto;
+    border-style: solid;
 }
 
 #profile {
